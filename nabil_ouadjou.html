@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Links</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background: #0b0b0b;
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 400px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .link-btn {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      padding: 15px 20px;
+      background: rgba(255, 255, 255, 0.05);
+      border-radius: 14px;
+      text-decoration: none;
+      color: white;
+      font-size: 1.2rem;
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      transform: translateY(0px);
+      transition: all 0.3s ease;
+    }
+
+    .link-btn:hover {
+      transform: translateY(-4px);
+      background: rgba(255, 255, 255, 0.1);
+    }
+
+    .icon {
+      font-size: 1.5rem;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 10px;
+      font-weight: 400;
+      color: #cfcfcf;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Contact Me</h2>
+
+    <a class="link-btn" href="https://wa.me/+212613905079 " target="_blank">
+      <i class="fa-brands fa-whatsapp icon"></i>
+      WhatsApp
+    </a>
+
+    <a class="link-btn" href="mailto:nabilouadjou920@gmail.com " target="_blank">
+      <i class="fa-solid fa-envelope icon"></i>
+      Email
+    </a>
+
+    <a class="link-btn" href="www.linkedin.com/in/nabil-ouadjou-22110a324 target="_blank">
+      <i class="fa-brands fa-linkedin icon"></i>
+      LinkedIn
+    </a>
+
+    <a class="link-btn" href="https://github.com/nabil920-dev" target="_blank">
+      <i class="fa-brands fa-github icon"></i>
+      GitHub
+    </a>
+  </div>
+</body>
+</html>
