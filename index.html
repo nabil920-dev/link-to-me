@@ -7,7 +7,8 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
   <style>
     :root{
-      --bg:#07070a;
+      --bg: radial-gradient(circle at top left, rgba(15,40,70,0.6), transparent),
+            linear-gradient(180deg, #091629, #02040a);
       --card: rgba(255,255,255,0.04);
       --glass: rgba(255,255,255,0.06);
       --accent: linear-gradient(90deg, rgba(99,102,241,0.12), rgba(16,185,129,0.08));
@@ -46,11 +47,7 @@
     .top {
       display:flex;align-items:center;justify-content:space-between;
     }
-    .avatar {
-      width:64px;height:64px;border-radius:12px;background:linear-gradient(140deg,#111,#222);
-      display:flex;align-items:center;justify-content:center;font-weight:700;color:#9ca3af;font-size:20px;
-      border:1px solid rgba(255,255,255,0.03);
-    }
+    
     h1{font-size:18px;margin:0}
     p.lead{margin:6px 0 0;color:#bfc4cc;font-size:13px;line-height:1.4;opacity:0;transform:translateY(12px) blur(4px);transition:all .7s cubic-bezier(.2,.9,.2,1);}
 
@@ -99,7 +96,7 @@
         <h1 class="title-anim">Contact</h1>
         <p class="lead">Thank you for reviewing my resume. I look forward to the opportunity to connect.</p>
       </div>
-      <div class="avatar">NO</div>
+      
     </div>
 
     <nav class="links" aria-label="contact links">
